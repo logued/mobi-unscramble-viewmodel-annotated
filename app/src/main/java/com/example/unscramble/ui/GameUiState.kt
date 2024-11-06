@@ -21,9 +21,7 @@ package com.example.unscramble.ui
  * Both the fields and a Constructor will be generated for this data class,
  * based on the parameters supplied. Note the default values for the fields.
  * Fields are public by default.
- * Note that 'val' type is used, so:
- * - no reassignment to these fields is allowed once they have been initialized
- * - we can get the value stored in a field  e.g.print( gameUiState.score )
+ *
  *
  */
 data class GameUiState(
